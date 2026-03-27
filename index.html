@@ -1,42 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eva Krol</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <main class="page">
+    <header class="topbar">
+      <div
+        class="eyebrow"
+        data-ru="ВЕБ, ГРАФИЧЕСКИЙ ДИЗАЙН"
+        data-en="WEB &amp; GRAPHIC DESIGN"
+      >
+        ВЕБ, ГРАФИЧЕСКИЙ ДИЗАЙН
+      </div>
 
-    <main class="hero">
-        <h1 class="title">
-            <div class="center">
-            full-stack designer<br>
-            <span class="portfolio">
-                from idea to visual execution
-            </span>
-            </div>
+      <button class="language-toggle" type="button" id="langToggle" aria-label="Переключить язык">
+        <span class="lang-option active" id="langRu">RU</span>
+        <span>/</span>
+        <span class="lang-option" id="langEn">EN</span>
+      </button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="name" data-ru="Ева Кроль" data-en="Eva Krol">
+          Ева Кроль
         </h1>
 
-        <footer class="info">
-            <div class="left">
-                <p>EVA KROL<br>EEVEE.KROL@GMAIL.COM</p>
-            </div>
+        <p
+          class="tagline"
+          data-ru="от идеи до визуальной реализации"
+          data-en="from idea to visual execution"
+        >
+          от идеи до визуальной реализации
+        </p>
 
-            <div class="center">
-                <p>( FULL-STACK DESIGNER )</p>
-            </div>
+        <a
+          class="cta"
+          id="projectLink"
+          href="mailto:eevee.krol@gmail.com?subject=%D0%9E%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82"
+          data-ru="обсудить проект"
+          data-en="start a project"
+        >
+          обсудить проект
+        </a>
+      </div>
+    </section>
 
-            <div class="right">
-                <p>BEHANCE.NET<br>/evakrol</p>
-            </div>
-        </footer>
-    </main>
+    <footer class="bottombar">
+      <div class="bottom-left">
+        <a
+          class="social social-left"
+          href="https://www.pinterest.com/krol_eva/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>PINTEREST.COM</span>
+          <span>/krol_eva</span>
+        </a>
+      </div>
 
+      <div
+        class="bottom-center"
+        data-ru="( ВЕБ И ГРАФИЧЕСКИЙ ДИЗАЙНЕР )"
+        data-en="( WEB &amp; GRAPHIC DESIGNER )"
+      >
+        ( ВЕБ И ГРАФИЧЕСКИЙ ДИЗАЙНЕР )
+      </div>
+
+      <div class="bottom-right">
+        <a
+          class="social social-right"
+          href="https://www.behance.net/evakrol"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>BEHANCE.NET</span>
+          <span>/evakrol</span>
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
