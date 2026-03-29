@@ -125,7 +125,7 @@ button {
 .bottom-center {
   justify-self: center;
   align-self: end;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: -0.03em;
@@ -141,7 +141,7 @@ button {
   flex-direction: column;
   gap: 4px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.05;
   text-transform: uppercase;
   letter-spacing: -0.03em;
